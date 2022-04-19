@@ -9,21 +9,23 @@ CONFIG += c++14
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Abstract_BSF.cpp \
+    Abstract_RSR.cpp \
     BO_BSF.cpp \
-    BendStiffener.cpp \
     Conical_BSF.cpp \
     Custom_BSF.cpp \
-    Riser.cpp \
+    Linear_RSR.cpp \
     main.cpp \
     MainWindow.cpp
 
 HEADERS += \
+    Abstract_BSF.h \
+    Abstract_RSR.h \
     BO_BSF.h \
-    BendStiffener.h \
     Conical_BSF.h \
     Custom_BSF.h \
-    MainWindow.h \
-    Riser.h
+    Linear_RSR.h \
+    MainWindow.h
 
 FORMS += \
     MainWindow.ui

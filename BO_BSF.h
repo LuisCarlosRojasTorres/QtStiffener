@@ -1,7 +1,7 @@
 #pragma once
-#include "BendStiffener.h"
+#include "Abstract_BSF.h"
 class BO_BSF :
-    public BendStiffener
+    public Abstract_BSF
 {
 };
 
